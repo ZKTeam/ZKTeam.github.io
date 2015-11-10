@@ -4,15 +4,15 @@
 <!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
 {% include head.html %}
 <body data-spy="scroll">
-{% include facebook.html %}
-{% include header.html %}
-{% include promo.html %}
-{% include about.html %}
-{% include features.html %}
-{% include docs.html %}
-{% include license.html %}
-{% include contact.html %}
-{% include footer.html %}
+{% include facebook.md %}
+{% include header.md %}
+{% include promo.md %}
+{% include about.md %}
+{% include features.md %}
+{% include docs.md %}
+{% include license.md %}
+{% include contact.md %}
+{% include footer.md %}
 </body>
 </html> 
 
