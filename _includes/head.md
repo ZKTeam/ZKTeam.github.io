@@ -13,9 +13,15 @@
     <link rel="stylesheet" href="{{ site.baseurl }}public/plugins/bootstrap/css/bootstrap.min.css">
     <!-- Plugins CSS -->    
     <link rel="stylesheet" href="{{ site.baseurl }}public/plugins/font-awesome/css/font-awesome.css">
-    <link rel="stylesheet" href="{{ site.baseurl }}public/plugins/prism/prism.css">
     <!-- Theme CSS -->  
     <link id="theme-style" rel="stylesheet" href="{{ site.baseurl }}public/css/styles.css">
+    <!-- Javascript -->          
+    <script type="text/javascript" src="{{ site.baseurl }}public/plugins/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="{{ site.baseurl }}public/plugins/jquery-migrate-1.2.1.min.js"></script>    
+    <script type="text/javascript" src="{{ site.baseurl }}public/plugins/jquery.easing.1.3.js"></script>   
+    <script type="text/javascript" src="{{ site.baseurl }}public/plugins/bootstrap/js/bootstrap.min.js"></script>     
+    <script type="text/javascript" src="{{ site.baseurl }}public/plugins/jquery-scrollTo/jquery.scrollTo.min.js"></script>  
+    <script type="text/javascript" src="{{ site.baseurl }}public/js/main.js"></script>
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
