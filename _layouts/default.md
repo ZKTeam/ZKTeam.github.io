@@ -4,7 +4,6 @@
 <!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
 {% include head.md %}
 <body data-spy="scroll">
-<!--{% include facebook.md %}-->
 {% include header.md %}
 {% include promo.md %}
 {% include about.md %}
