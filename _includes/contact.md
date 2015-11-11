@@ -2,7 +2,7 @@
     <section id="contact" class="contact section has-pattern">
         <div class="container">
             <div class="contact-inner">
-                <h2 class="title  text-center">Contact</h2>
+                <h2 class="title  text-center">联系我们</h2>
                 <p class="intro  text-center">I hope you find this Bootstrap template useful. <br />Feel free to get in touch if you have any questions or suggestions.</p>
                 <div class="author-message">                      
                     <div class="profile">

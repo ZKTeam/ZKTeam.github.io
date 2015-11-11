@@ -17,9 +17,9 @@
                 </div><!--//navbar-header-->            
                 <div class="navbar-collapse collapse" id="navbar-collapse">
                     <ul class="nav navbar-nav">
-                        <li class="active nav-item"><a class="scrollto" href="#promo">Home</a></li>
-                        <li class="nav-item"><a class="scrollto" href="#about">About</a></li>
-                        <li class="nav-item"><a class="scrollto" href="#features">Features</a></li>
+                        <li class="active nav-item"><a class="scrollto" href="#promo">首页</a></li>
+                        <li class="nav-item"><a class="scrollto" href="#about">服务</a></li>
+                        <li class="nav-item"><a class="scrollto" href="#features"></a></li>
                         <li class="nav-item"><a class="scrollto" href="#license">License</a></li>                        
                         <li class="nav-item last"><a class="scrollto" href="#contact">联系我们</a></li>
                     </ul><!--//nav-->
