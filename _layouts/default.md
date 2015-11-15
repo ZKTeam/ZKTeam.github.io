@@ -8,7 +8,6 @@
 {% include promo.md %}
 {% include about.md %}
 {% include features.md %}
-{% include license.md %}
 {% include contact.md %}
 {% include footer.md %}
 </body>
