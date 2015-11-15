@@ -1,5 +1,5 @@
     <!-- ******CONTACT****** --> 
-    <section id="contact" class="contact section has-pattern">
+    <section id="contact" class="license section">
         <div class="container">
             <div class="contact-inner">
                 <h2 class="title  text-center">联系我们</h2>
