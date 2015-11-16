@@ -34,23 +34,21 @@ title: ZKTeam 专业 App 定制开发
 </head>
 <body>
 	<!-- 导航 -->
-	<header id="header" class="header">
-		<div class="container" >
-		    <nav class="nav-wrapper">
-		        <ul class="nav">
-		            <li class="nav__item ">
-		            <a href="#"></a>
-	                    item1
-		            </li>
-		            <li class="nav__item ">
-		                item2
-		            </li>
-		        </ul>
-		    </nav>
-		    <a href="http://wicky.nillia.ms/headroom.js/" class="brand header__link">
-		        <b class="brand__forename">Headroom</b><b class="brand__surname">.js</b>
-		    </a>
-		</div>
+	<header id="header" class="header">		    
+		<nav class="nav">
+	        <ul>
+	            <li>
+	            <a href="#"></a>
+                    item1
+	            </li>
+	            <li>
+	                item2
+	            </li>
+	        </ul>
+	    </nav>
+	    <a href="http://wicky.nillia.ms/headroom.js/" class="brand header__link">
+	        <b class="brand__forename">Headroom</b><b class="brand__surname">.js</b>
+	    </a>
 	</header>
 	<!-- 轮播 -->
 	<div class="banner">

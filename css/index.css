@@ -86,14 +86,11 @@
 }
 
 .nav {
-    list-style: none;
-    padding: 0;
-    margin-bottom: 0;
+	display: block;
 }
-
-.nav__item{
-	display: inline-block;
-}
-	.nav__item a{
-		color: rgba(255,255,255,0.6)
+	.nav ul {
+		list-style: none;
+	}
+		.banner ul li {
+		display: inline-block;
 	}
