@@ -26,7 +26,7 @@ title: ZKTeam 专业 App 制作开发
 				complete: function() {},  //  A function that gets called after every slide animation
 				keys: true,               //  Enable keyboard (left, right) arrow shortcuts
 				dots: true,               //  Display dot navigation
-				fluid: true              //  Support responsive design. May break non-responsive designs
+				fluid: false              //  Support responsive design. May break non-responsive designs
 			});
 		});
     </script>
