@@ -16,10 +16,24 @@ title: ZKTeam 专业 App 制作开发
 	    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
 	    <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
 	    <link rel="stylesheet" href="/css/main.css" />
+	    <link rel="stylesheet" href="/css/index.css" />
 	    <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
 	    <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	    <script src="//unslider.com/unslider.js"></script>
+	    <script type="text/javascript">
+	    	$(function() {
+			    $('.banner').unslider();
+			});
+	    </script>
 	</head>
 	<body>
+		<div class="banner">
+		    <ul>
+		        <li>This is a slide.</li>
+		        <li>This is another slide.</li>
+		        <li>This is a final slide.</li>
+		    </ul>
+		</div>
 		{% include footer.md %}
 	</body>
 </html>
