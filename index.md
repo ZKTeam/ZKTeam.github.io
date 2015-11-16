@@ -33,21 +33,16 @@ title: ZKTeam 专业 App 定制开发
     </script>
 </head>
 <body>
+	<!-- 导航 -->
 	<header id="header" class="header">
 		<div class="container" >
-		    <nav id="nav" class="nav-wrapper">
+		    <nav class="nav-wrapper">
 		        <ul class="nav">
 		            <li class="nav__item ">
-		                <a class="header__link subdued" href="https://www.github.com/WickyNilliams/headroom.js">
-		                    <span aria-hidden="true" class="icon icon--github"></span>
-		                    <span class="complimentary push--left">GitHub</span>
-		                </a>
+	                    item1
 		            </li>
 		            <li class="nav__item ">
-		                <a class="header__link subdued" href="http://www.twitter.com/WickyNilliams">
-		                    <span aria-hidden="true" class="icon icon--twitter"></span>
-		                    <span class="complimentary push--left">@WickyNilliams</span>
-		                </a>
+		                item2
 		            </li>
 		        </ul>
 		    </nav>
@@ -56,6 +51,7 @@ title: ZKTeam 专业 App 定制开发
 		    </a>
 		</div>
 	</header>
+	<!-- 轮播 -->
 	<div class="banner">
 		<ul>
 			<li style="background-image: url('http://www.bootcss.com/p/unslider/img/sunset.jpg');">

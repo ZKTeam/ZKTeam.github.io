@@ -78,6 +78,10 @@
 
 .header{
 	position: fixed;
+    z-index: 10;
+    right: 0;
+    left: 0;
+    top: 0;
 	background-color: #292f36;
 }
 
