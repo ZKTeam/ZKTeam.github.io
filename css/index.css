@@ -75,3 +75,18 @@
 				background: #fff;
 				opacity: 1;
 			}
+
+.head{
+	position: fixed;
+    z-index: 10;
+    right: 0;
+    left: 0;
+    top: 0;
+	background-color: #292f36;
+}
+
+.nav {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 0;
+}
