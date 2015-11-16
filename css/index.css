@@ -86,7 +86,8 @@
 }
 
 .nav {
-	display: block;
+	position: fixed;
+	background-color: #292f36;
 }
 	.nav ul {
 		list-style: none;
