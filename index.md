@@ -28,10 +28,34 @@ title: ZKTeam 专业 App 定制开发
 				dots: true,               //  Display dot navigation
 				fluid: false              //  Support responsive design. May break non-responsive designs
 			});
+			$("#header").headroom();
 		});
     </script>
 </head>
 <body>
+	<header id="header" class="header header--fixed">
+    <div class="container" >
+        <nav id="nav" class="nav-wrapper">
+            <ul class="nav nav--main">
+                <li class="nav__item ">
+                    <a class="header__link subdued" href="https://www.github.com/WickyNilliams/headroom.js">
+                        <span aria-hidden="true" class="icon icon--github"></span>
+                        <span class="complimentary push--left">GitHub</span>
+                    </a>
+                </li>
+                <li class="nav__item ">
+                    <a class="header__link subdued" href="http://www.twitter.com/WickyNilliams">
+                        <span aria-hidden="true" class="icon icon--twitter"></span>
+                        <span class="complimentary push--left">@WickyNilliams</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <a href="http://wicky.nillia.ms/headroom.js/" class="brand header__link">
+            <b class="brand__forename">Headroom</b><b class="brand__surname">.js</b>
+        </a>
+    </div>
+</header>
 	<div class="banner">
 		<ul>
 			<li style="background-image: url('http://www.bootcss.com/p/unslider/img/sunset.jpg');">
