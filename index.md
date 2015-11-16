@@ -34,33 +34,25 @@ title: ZKTeam 专业 App 制作开发
 <body>
 	<div class="banner">
 			<ul>
-				<li style="background-image: url('http://www.bootcss.com/p/unslider/img/sunset.jpg');">
+				<li style="background-color:yellow;">
 					<div class="inner">
 						<h1>The jQuery slider that just slides.</h1>
 						<p>就是这个不到3kb的插件！没有奇特的特效或无用的标签。</p>
 					</div>
 				</li>
-
-				<li style="background-image: url('http://www.bootcss.com/p/unslider/img/wood.jpg');">
-					<div class="inner">
-						<h1>Fluid, flexible, fantastically minimal.</h1>
-						<p>Use any HTML in your slides, extend with CSS. You have full control.</p>
-					</div>
-				</li>
-
-				<li style="background-image: url('http://www.bootcss.com/p/unslider/img/subway.jpg');">
+				<li style="background-color:red;">
 					<div class="inner">
 						<h1>开源</h1>
 						<p>Unslider的所有源码都托管在GitHub上。</p>
 					</div>
 				</li>
 
-				<li style="background-image: url('http://www.bootcss.com/p/unslider/img/shop.jpg');">
+			<!-- 	<li style="background-image: url('http://www.bootcss.com/p/unslider/img/shop.jpg');">
 					<div class="inner">
 						<h1>Uh, that’s about it.</h1>
 						<p>I just wanted to show you another slide.</p>
 					</div>
-				</li>
+				</li> -->
 			</ul>
 		</div>
 	{% include footer.md %}
