@@ -34,17 +34,21 @@ title: ZKTeam 专业 App 定制开发
 </head>
 <body>
 	<!-- 导航 -->    
-	<nav class="nav">
-        <ul>
-            <li>
-            <a href="#"></a>
-                item1
-            </li>
-            <li>
-                item2
-            </li>
-        </ul>
-    </nav>
+	<nav class="navbar navbar-default nav">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#">ZKTeam 给你想要的</a>
+			</div>
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#">首页</a></li>
+					<li><a href="#">服务</a></li>
+					<li><a href="#">案例</a></li>
+					<li><a href="#">联系</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
 	<!-- 轮播 -->
 	<div class="banner">
 		<ul>

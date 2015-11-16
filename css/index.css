@@ -79,13 +79,3 @@
 .nav {
 	background-color: #292f36;
 }
-	.nav ul {
-		list-style: none;
-	}
-		.nav ul li {
-			padding:0; 
-			margin:0; 
-			float:left; 
-		}
-			.nav ul li a{
-			}
