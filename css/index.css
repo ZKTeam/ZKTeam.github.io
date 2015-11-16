@@ -74,16 +74,3 @@
 				background: #fff;
 				opacity: 1;
 			}
-
-.header {
-    background-color: #292f36;
-    display: block;
-}
-
-.header--fixed {
-    position: fixed;
-    z-index: 10;
-    right: 0;
-    left: 0;
-    top: 0;
-}
