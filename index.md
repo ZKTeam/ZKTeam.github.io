@@ -28,12 +28,12 @@ title: ZKTeam 专业 App 定制开发
 				dots: true,               //  Display dot navigation
 				fluid: false              //  Support responsive design. May break non-responsive designs
 			});
-			$("#header").headroom();
+			// $("#header").headroom();
 		});
     </script>
 </head>
 <body>
-	<header id="header" class="header header--fixed">
+	<!-- <header id="header" class="header header--fixed">
     <div class="container" >
         <nav id="nav" class="nav-wrapper">
             <ul class="nav nav--main">
@@ -55,7 +55,7 @@ title: ZKTeam 专业 App 定制开发
             <b class="brand__forename">Headroom</b><b class="brand__surname">.js</b>
         </a>
     </div>
-</header>
+</header> -->
 	<div class="banner">
 		<ul>
 			<li style="background-image: url('http://www.bootcss.com/p/unslider/img/sunset.jpg');">
