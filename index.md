@@ -38,8 +38,6 @@ title: ZKTeam 专业 App 制作开发
 					<div class="inner">
 						<h1>The jQuery slider that just slides.</h1>
 						<p>就是这个不到3kb的插件！没有奇特的特效或无用的标签。</p>
-
-						<a class="btn" href="#download">下载</a>
 					</div>
 				</li>
 
@@ -47,8 +45,6 @@ title: ZKTeam 专业 App 制作开发
 					<div class="inner">
 						<h1>Fluid, flexible, fantastically minimal.</h1>
 						<p>Use any HTML in your slides, extend with CSS. You have full control.</p>
-
-						<a class="btn" href="#download">下载</a>
 					</div>
 				</li>
 
@@ -56,8 +52,6 @@ title: ZKTeam 专业 App 制作开发
 					<div class="inner">
 						<h1>开源</h1>
 						<p>Unslider的所有源码都托管在GitHub上。</p>
-
-						<a class="btn" href="//github.com/idiot/unslider">参与</a>
 					</div>
 				</li>
 
@@ -65,8 +59,6 @@ title: ZKTeam 专业 App 制作开发
 					<div class="inner">
 						<h1>Uh, that’s about it.</h1>
 						<p>I just wanted to show you another slide.</p>
-
-						<a class="btn" href="#download">下载</a>
 					</div>
 				</li>
 			</ul>

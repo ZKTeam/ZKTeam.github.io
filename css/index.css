@@ -87,15 +87,3 @@ link {
 				background: #fff;
 				opacity: 1;
 			}
-
-	.banner .arrows {
-		position: absolute;
-		bottom: 20px;
-		right: 20px;
-		color: #fff;
-	}
-		.banner .arrow {
-			display: inline;
-			padding-left: 10px;
-			cursor: pointer;
-		}
