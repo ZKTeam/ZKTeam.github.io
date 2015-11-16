@@ -45,9 +45,6 @@ title: ZKTeam 专业 App 定制开发
             </li>
         </ul>
     </nav>
-    <a href="http://wicky.nillia.ms/headroom.js/" class="brand header__link">
-        <b class="brand__forename">Headroom</b><b class="brand__surname">.js</b>
-    </a>
 	<!-- 轮播 -->
 	<div class="banner">
 		<ul>
