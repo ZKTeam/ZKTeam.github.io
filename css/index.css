@@ -1,4 +1,11 @@
-
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
 
 .banner {
 	position: relative;
@@ -9,6 +16,7 @@
 }
 	.banner ul {
 		list-style: none;
+		width: 300%;
 	}
 	.banner ul li {
 		display: block;
