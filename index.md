@@ -1,6 +1,6 @@
 ---
 layout: default
-title: ZKTeam 专业 App 制作开发
+title: ZKTeam 专业 App 定制开发
 ---
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
@@ -33,35 +33,32 @@ title: ZKTeam 专业 App 制作开发
 </head>
 <body>
 	<div class="banner">
-			<ul>
-				<li style="background-image: url('http://www.bootcss.com/p/unslider/img/sunset.jpg');">
-					<div class="inner">
-						<h1>The jQuery slider that just slides.</h1>
-						<p>就是这个不到3kb的插件！没有奇特的特效或无用的标签。</p>
-					</div>
-				</li>
-
-				<li style="background-image: url('http://www.bootcss.com/p/unslider/img/wood.jpg');">
-					<div class="inner">
-						<h1>Fluid, flexible, fantastically minimal.</h1>
-						<p>Use any HTML in your slides, extend with CSS. You have full control.</p>
-					</div>
-				</li>
-
-				<li style="background-image: url('http://www.bootcss.com/p/unslider/img/subway.jpg');">
-					<div class="inner">
-						<h1>开源</h1>
-						<p>Unslider的所有源码都托管在GitHub上。</p>
-					</div>
-				</li>
-
-				<li style="background-image: url('http://www.bootcss.com/p/unslider/img/shop.jpg');">
-					<div class="inner">
-						<h1>Uh, that’s about it.</h1>
-						<p>I just wanted to show you another slide.</p>
-					</div>
-				</li>
-			</ul>
-		</div>
+		<ul>
+			<li style="background-image: url('http://www.bootcss.com/p/unslider/img/sunset.jpg');">
+				<div class="inner">
+					<h1>The jQuery slider that just slides.</h1>
+					<p>就是这个不到3kb的插件！没有奇特的特效或无用的标签。</p>
+				</div>
+			</li>
+			<li style="background-image: url('http://www.bootcss.com/p/unslider/img/wood.jpg');">
+				<div class="inner">
+					<h1>Fluid, flexible, fantastically minimal.</h1>
+					<p>Use any HTML in your slides, extend with CSS. You have full control.</p>
+				</div>
+			</li>
+			<li style="background-image: url('http://www.bootcss.com/p/unslider/img/subway.jpg');">
+				<div class="inner">
+					<h1>开源</h1>
+					<p>Unslider的所有源码都托管在GitHub上。</p>
+				</div>
+			</li>
+			<li style="background-image: url('http://www.bootcss.com/p/unslider/img/shop.jpg');">
+				<div class="inner">
+					<h1>Uh, that’s about it.</h1>
+					<p>I just wanted to show you another slide.</p>
+				</div>
+			</li>
+		</ul>
+	</div>
 	{% include footer.md %}
 </body>
