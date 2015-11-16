@@ -94,3 +94,6 @@
 .nav__item{
 	display: inline-block;
 }
+	.nav__item a{
+		color: rgba(255,255,255,0.6)
+	}
