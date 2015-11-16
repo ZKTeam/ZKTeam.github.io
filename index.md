@@ -34,14 +34,14 @@ title: ZKTeam 专业 App 定制开发
 </head>
 <body>
 	<!-- 导航 -->    
-	<nav class="navbar navbar-default navbar-fixed-top">
+	<nav class="navbar navbar-default navbar-fixed-top nav">
 		<div class="container-fluid">
 			<div class="navbar-header">
 				<a class="navbar-brand" href="#">ZKTeam 给你想要的</a>
 			</div>
 			<div class="collapse navbar-collapse">
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="#">首页</a></li>
+					<li><a href="#banner">首页</a></li>
 					<li><a href="#">服务</a></li>
 					<li><a href="#">案例</a></li>
 					<li><a href="#">联系</a></li>
@@ -50,7 +50,7 @@ title: ZKTeam 专业 App 定制开发
 		</div>
 	</nav>
 	<!-- 轮播 -->
-	<div class="banner">
+	<div id="banner" class="banner">
 		<ul>
 			<li style="background-image: url('http://www.bootcss.com/p/unslider/img/sunset.jpg');">
 				<div class="inner">
