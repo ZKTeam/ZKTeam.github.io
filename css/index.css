@@ -37,6 +37,8 @@
 		color: #fff;
 	}
 	.banner .inner p{
+		font-size: 18px;
+		margin-top: 10px;
 		color: rgba(255,255,255,0.6);
 	}
 
