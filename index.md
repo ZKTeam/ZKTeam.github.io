@@ -80,6 +80,6 @@ title: ZKTeam 专业 App 定制开发
 	</div>
 	{% include service.md %}
 	{% include case.md %}
-	{% inclued contact.md %}
+	{% include contact.md %}
 	{% include footer.md %}
 </body>
