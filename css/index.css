@@ -112,3 +112,11 @@
 		display: block;
 		padding-bottom: 6px;
 	}
+
+.service {
+	background: #fff;
+}
+
+.case {
+	background: #f7f7f6;
+}
