@@ -78,5 +78,8 @@ title: ZKTeam 专业 App 定制开发
 			</li>
 		</ul>
 	</div>
+	{% include service.md %}
+	{% include case.md %}
+	{% inclued contact.md %}
 	{% include footer.md %}
 </body>
