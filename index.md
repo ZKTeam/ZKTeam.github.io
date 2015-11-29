@@ -26,7 +26,7 @@ title: ZKTeam 专业 App 定制开发
 				complete: function() {},  //  A function that gets called after every slide animation
 				keys: true,               //  Enable keyboard (left, right) arrow shortcuts
 				dots: true,               //  Display dot navigation
-				fluid: false              //  Support responsive design. May break non-responsive designs
+				fluid: true              //  Support responsive design. May break non-responsive designs
 			});
 			// $("#header").headroom();
 		});
@@ -54,26 +54,20 @@ title: ZKTeam 专业 App 定制开发
 		<ul>
 			<li style="background-image: url('http://www.bootcss.com/p/unslider/img/sunset.jpg');">
 				<div class="inner">
-					<h1>The jQuery slider that just slides.</h1>
-					<p>就是这个不到3kb的插件！没有奇特的特效或无用的标签。</p>
+					<h1>专业技术</h1>
+					<p>APP专业制作团队 ：只要说清你的需求，就给你想要的。</p>
 				</div>
 			</li>
 			<li style="background-image: url('http://www.bootcss.com/p/unslider/img/wood.jpg');">
 				<div class="inner">
-					<h1>Fluid, flexible, fantastically minimal.</h1>
-					<p>Use any HTML in your slides, extend with CSS. You have full control.</p>
+					<h1>全方位服务</h1>
+					<p>iOS 与 Android 资深创作团队，提供个性化、全方位服务。</p>
 				</div>
 			</li>
 			<li style="background-image: url('http://www.bootcss.com/p/unslider/img/subway.jpg');">
 				<div class="inner">
-					<h1>开源</h1>
-					<p>Unslider的所有源码都托管在GitHub上。</p>
-				</div>
-			</li>
-			<li style="background-image: url('http://www.bootcss.com/p/unslider/img/shop.jpg');">
-				<div class="inner">
-					<h1>Uh, that’s about it.</h1>
-					<p>I just wanted to show you another slide.</p>
+					<h1>极致体验</h1>
+					<p>完美用户体验，才是制胜王道。</p>
 				</div>
 			</li>
 		</ul>
