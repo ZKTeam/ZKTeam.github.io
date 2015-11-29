@@ -42,9 +42,9 @@ title: ZKTeam 专业 App 定制开发
 			<div class="collapse navbar-collapse">
 				<ul class="nav navbar-nav navbar-right">
 					<li><a href="#banner">首页</a></li>
-					<li><a href="#">服务</a></li>
-					<li><a href="#">案例</a></li>
-					<li><a href="#">联系</a></li>
+					<li><a href="#service">服务</a></li>
+					<li><a href="#case">案例</a></li>
+					<li><a href="#contact">联系</a></li>
 				</ul>
 			</div>
 		</div>
@@ -72,6 +72,29 @@ title: ZKTeam 专业 App 定制开发
 			</li>
 		</ul>
 	</div>
+	<div class="features">
+			<ul class="wrap">
+				<li class="browser">
+					<b>跨浏览器</b>
+					<p>Unslider已经在所有最新的浏览器上测试过了，并且对那些老旧的浏览器也能很出色的降级处理。</p>
+				</li>
+
+				<li class="keyboard">
+					<b>支持键盘导航</b>
+					<p>如果需要，可以加入键盘方向键导航。试一试左右方向键吧！</p>
+				</li>
+
+				<li class="height">
+					<b>自动调整高度</b>
+					<p>并不是每个幻灯片都很规范，Unslider能够自动调整高度。</p>
+				</li>
+
+				<li class="responsive">
+					<b>Yep，他还支持响应式布局</b>
+					<p>如今哪个网站还不支持响应式布局就已经非常OUT了。Unslider帮你轻松搞定！</p>
+				</li>
+			</ul>
+		</div>
 	{% include service.md %}
 	{% include case.md %}
 	{% include contact.md %}
