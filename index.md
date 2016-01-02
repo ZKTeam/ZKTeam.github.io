@@ -111,7 +111,7 @@ title: ZKTeam 专业 App 定制开发
 			</ol>
 		</div>
 
-		<div id="contact" class="options">
+		<div id="contact" class="contact">
 			<div class="wrap">
 				<h2>联系我们</h2>
 				<p>If you want to add mobile/touch/swipe/whatever support to Unslider, you’ll need to include the <a href="http://stephband.info/jquery.event.swipe/">jQuery.event.swipe</a> plugin, then it’ll work out the box. Easy!</p>				
