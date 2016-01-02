@@ -108,10 +108,6 @@ title: ZKTeam 专业 App 定制开发
 						<h3>引入jQuery 和 Unslider </h3>
 						<p>To use Unslider, you’ll need to make sure both the Unslider and jQuery scripts are included. If you’ve already got jQuery (you can test by opening your JavaScript console and typing <code>!!window.jQuery</code> — if it says <code>true</code>, you have jQuery), you don’t need to add the first line.</p>
 					</div>
-
-					<pre>&lt;script src="//code.jquery.com/jquery-latest.min.js"&gt;&lt;/script&gt;
-&lt;script src="//unslider.com/unslider.js"&gt;&lt;/script&gt;
-</pre>
 				</li>
 
 				<li>
@@ -120,25 +116,6 @@ title: ZKTeam 专业 App 定制开发
 						<p>Unslider doesn’t need any really awkward markup. In fact, all you need is a <code>div</code> and an unordered list. An example of some Unslider-friendly HTML is on the right.</p>
 						<p>You can add as many slides as you want: the example on the right just has three for the sake of brevity, but Unslider won’t work properly with one slide (but then it’s just a box).</p>
 					</div>
-
-					<pre>&lt;div class=&quot;banner&quot;&gt;
-    &lt;ul&gt;
-        &lt;li&gt;This is a slide.&lt;/li&gt;
-        &lt;li&gt;This is another slide.&lt;/li&gt;
-        &lt;li&gt;This is a final slide.&lt;/li&gt;
-    &lt;/ul&gt;
-&lt;/div&gt;</pre>
-				</li>
-
-				<li>
-					<div>
-						<h3>Make it pretty</h3>
-						<p>You can change, add, and remove as much CSS per slide as you want, but there <i>is</i> a barebones style required by Unslider. It’s on the right (change the class name where .banner is the name of your slider).</p>
-					</div>
-
-					<pre>.banner { position: relative; overflow: auto; }
-    .banner li { list-style: none; }
-        .banner ul li { float: left; }</pre>
 				</li>
 
 				<li>
@@ -146,10 +123,6 @@ title: ZKTeam 专业 App 定制开发
 						<h3>Plug it all together</h3>
 						<p>We’ve been through so much together, and I’m pleased to say the finish line is near. Our journey is almost over, just one more thing left to do. The JavaScript is on the right (make sure to put it in a <code>script</code> tag, and change <code>.banner</code> to whatever your slider’s element is).</p>
 					</div>
-
-					<pre>$(function() {
-    $('.banner').unslider();
-});</pre>
 				</li>
 			</ol>
 		</div>
@@ -159,19 +132,8 @@ title: ZKTeam 专业 App 定制开发
 				<h2>参数</h2>
 				<p>Although it’s lightweight, Unslider comes with a range of options to customise your slider. Here’s the default options provided. You can add, remove, or completely skip out the options object. It’s up to you.</p>
 
-				<pre>$('.banner').unslider({
-	speed: 500,               <span>//  The speed to animate each slide (in milliseconds)</span>
-	delay: 3000,              <span>//  The delay between slide animations (in milliseconds)</span>
-	complete: function() {},  <span>//  A function that gets called after every slide animation</span>
-	keys: true,               <span>//  Enable keyboard (left, right) arrow shortcuts</span>
-	dots: true,               <span>//  Display dot navigation</span>
-	fluid: false              <span>//  Support responsive design. May break non-responsive designs</span>
-});</pre>
-<br><br><br>
 				<h2 id="touch">支持触摸屏</h2>
 				<p>If you want to add mobile/touch/swipe/whatever support to Unslider, you’ll need to include the <a href="http://stephband.info/jquery.event.swipe/">jQuery.event.swipe</a> plugin, then it’ll work out the box. Easy!</p>
-
-<br><br><br>
 
 				<h2 id="prev-next">添加向前(previous)/向后（next）链接</h2>
 				<p>A feature that’s often requested in Unslider, but isn’t included in-the-box, is previous/next links. Luckily, they’re easy enough to add with a little script, which utilises Unslider’s <a href="#methods">methods</a>.</p>
@@ -197,30 +159,7 @@ title: ZKTeam 专业 App 定制开发
 				<h2 id="methods">存取Unslider的属性</h2>
 				<p>Using jQuery’s wonderful <code>data</code> method, you can access and manually override any methods. Here’s a list of what you can do:</p>
 
-				<pre>var slidey = $('.banner').unslider(),
-    data = slidey.data('unslider');
-
-<span>//  Start Unslider</span>
-data.start();
-
-<span>//  Pause Unslider</span>
-data.stop();
-
-<span>//  Move to a slide index, with optional callback</span>
-data.move(2, function() {});
-<span>//  data.move(0);</span>
-
-<span>//  Manually enable keyboard shortcuts</span>
-data.keys();
-
-<span>//  Move to the next slide (or the first slide if there isn't one)</span>
-data.next();
-
-<span>//  Move to the previous slide (or the last slide if there isn't one)</span>
-data.prev();
-
-<span>//  Append the navigation dots manually</span>
-data.dots();</pre>
+				
 			</div>
 		</div>
 
