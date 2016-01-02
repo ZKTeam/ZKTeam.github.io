@@ -62,22 +62,19 @@ title: ZKTeam 专业 App 定制开发
 
 		<div class="service">
 			<ul class="wrap">
-				<li>
+				<li class="browser">
 					<b>App 需求分析</b>
 					<p>从用户角度出发，提供闭环逻辑思维。</p>
 				</li>
-
-				<li>
+				<li class="keyboard">
 					<b>App 界面设计</b>
 					<p>简单直接的UI设计，让界面更有视觉冲击。</p>
 				</li>
-
-				<li>
+				<li class="height">
 					<b>App 软件开发</b>
 					<p>研发、上线、售后服务，适应各尺寸机型。</p>
 				</li>
-
-				<li>
+				<li class="responsive">
 					<b>待定</b>
 					<p>如今哪个网站还不支持响应式布局就已经非常OUT了。</p>
 				</li>
