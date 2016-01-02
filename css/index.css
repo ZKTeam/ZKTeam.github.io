@@ -184,7 +184,7 @@ h1, h2, h3, h4, b {
 		padding-bottom: 15px;
 	}
 
-.options {
+.contact {
 	padding: 60px 0;
 
 	background: #39342d;
@@ -193,16 +193,6 @@ h1, h2, h3, h4, b {
 	box-shadow: inset 0 2px 3px rgba(0,0,0,.2);
 	text-shadow: 0 1px 1px rgba(0,0,0,.2);
 }
-	.options a {
-		opacity: .7;
-		color: #fff;
-		border-bottom: 1px solid rgba(255,255,255,.2);
-		text-decoration: none;
-	}
-		.options a:hover {
-			opacity: 1;
-			border-bottom-color: rgba(255,255,255,.3);
-		}
 	.options p {
 		font-size: 16px;
 		line-height: 25px;
@@ -213,21 +203,6 @@ h1, h2, h3, h4, b {
 		color: #fff;
 		padding-bottom: 15px;
 	}
-	.options pre {
-		padding: 20px 25px;
-
-		background: #342f29;
-		color: #988f81;
-
-		font-size: 13px;
-		line-height: 19px;
-
-		box-shadow: inset 0 2px 2px rgba(0,0,0,.15), inset 0 0 1px rgba(0,0,0,.1);
-		border-radius: 5px;
-	}
-		.options pre span {
-			color: #706657;
-		}
 
 .footer {
 	padding: 80px 0 60px;
@@ -237,49 +212,4 @@ h1, h2, h3, h4, b {
 .wrap {
 	margin: 0 auto;
 	width: 960px;
-}
-
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px), (max-width: 900px) {
-	.wrap {
-		width: 90%;
-	}
-
-	.banner h1, .banner h2 {
-		font-size: 24px;
-		line-height: 30px;
-	}
-	.banner ul li {
-		height: 240px;
-	}
-	.banner .inner {
-		padding-top: 100px;
-		padding-bottom: 50px;
-	}
-	.banner p {
-		font-size: 15px;
-		width: 80%;
-		margin: 0 auto;
-	}
-	pre {
-		overflow: auto;
-	}
-	.features li {
-		width: 100%;
-		margin-left: 10px;
-		margin-bottom: 30px;
-	}
-	.how li {
-		width: 90%;
-	}
-	.how pre {
-		position: static;
-		width: 100%;
-	}
-}
-
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-	.features li:before {
-		background: url('img/icons@2x.png');
-		background-size: 100%;
-	}
 }

@@ -2,7 +2,6 @@
 layout: default
 title: ZKTeam 专业 App 定制开发
 ---
-<!DOCTYPE html>
 <html>
 	<head>
 	    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
@@ -79,15 +78,14 @@ title: ZKTeam 专业 App 定制开发
 				</li>
 
 				<li class="responsive">
-					<b>Yep，他还支持响应式布局</b>
-					<p>如今哪个网站还不支持响应式布局就已经非常OUT了。Unslider帮你轻松搞定！</p>
+					<b>待定</b>
+					<p>如今哪个网站还不支持响应式布局就已经非常OUT了。</p>
 				</li>
 			</ul>
 		</div>
 
 		<div id="howto" class="how wrap">
-			<h2>如何使用Unslider</h2>
-
+			<h2>合作流程</h2>
 			<ol>
 				<li>
 					<div>
@@ -113,12 +111,9 @@ title: ZKTeam 专业 App 定制开发
 			</ol>
 		</div>
 
-		<div id="options" class="options">
+		<div id="contact" class="options">
 			<div class="wrap">
-				<h2>参数</h2>
-				<p>Although it’s lightweight, Unslider comes with a range of options to customise your slider. Here’s the default options provided. You can add, remove, or completely skip out the options object. It’s up to you.</p>
-
-				<h2 id="touch">支持触摸屏</h2>
+				<h2>联系我们</h2>
 				<p>If you want to add mobile/touch/swipe/whatever support to Unslider, you’ll need to include the <a href="http://stephband.info/jquery.event.swipe/">jQuery.event.swipe</a> plugin, then it’ll work out the box. Easy!</p>				
 			</div>
 		</div>
