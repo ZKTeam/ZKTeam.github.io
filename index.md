@@ -49,25 +49,13 @@ title: ZKTeam 专业 App 定制开发
 					<div class="inner">
 						<h1>全方位服务</h1>
 						<p>iOS 与 Android资深创作团队，提供个性化、全方位服务。</p>
-						<a class="btn" href="#download">下载</a>
 					</div>
 				</li>
 
 				<li style="background-image: url('img/subway.jpg');">
 					<div class="inner">
-						<h1>开源</h1>
-						<p>Unslider的所有源码都托管在GitHub上。</p>
-
-						<a class="btn" href="//github.com/idiot/unslider">参与</a>
-					</div>
-				</li>
-
-				<li style="background-image: url('img/shop.jpg');">
-					<div class="inner">
-						<h1>Uh, that’s about it.</h1>
-						<p>I just wanted to show you another slide.</p>
-
-						<a class="btn" href="#download">下载</a>
+						<h1>极致体验</h1>
+						<p>完美用户体验，才是制胜王道。</p>
 					</div>
 				</li>
 			</ul>
