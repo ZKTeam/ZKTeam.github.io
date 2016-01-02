@@ -133,38 +133,11 @@ title: ZKTeam 专业 App 定制开发
 				<p>Although it’s lightweight, Unslider comes with a range of options to customise your slider. Here’s the default options provided. You can add, remove, or completely skip out the options object. It’s up to you.</p>
 
 				<h2 id="touch">支持触摸屏</h2>
-				<p>If you want to add mobile/touch/swipe/whatever support to Unslider, you’ll need to include the <a href="http://stephband.info/jquery.event.swipe/">jQuery.event.swipe</a> plugin, then it’ll work out the box. Easy!</p>
-
-				<h2 id="prev-next">添加向前(previous)/向后（next）链接</h2>
-				<p>A feature that’s often requested in Unslider, but isn’t included in-the-box, is previous/next links. Luckily, they’re easy enough to add with a little script, which utilises Unslider’s <a href="#methods">methods</a>.</p>
-
-				<pre><span>&lt;!-- The HTML --&gt;</span>
-&lt;a href="#" class="unslider-arrow prev"&gt;Previous slide&lt;/a&gt;
-&lt;a href="#" class="unslider-arrow next"&gt;Next slide&lt;/a&gt;
-
-<span>&lt;!-- And the JavaScript --&gt;</span>
-&lt;script&gt;
-    var unslider = $('.banner').unslider();
-
-    $('.unslider-arrow').click(function() {
-        var fn = this.className.split(' ')[1];
-
-        <span>//  Either do unslider.data('unslider').next() or .prev() depending on the className</span>
-        unslider.data('unslider')[fn]();
-    });
-&lt;/script&gt;
-</pre>
-
-<br><br><br>
-				<h2 id="methods">存取Unslider的属性</h2>
-				<p>Using jQuery’s wonderful <code>data</code> method, you can access and manually override any methods. Here’s a list of what you can do:</p>
-
-				
+				<p>If you want to add mobile/touch/swipe/whatever support to Unslider, you’ll need to include the <a href="http://stephband.info/jquery.event.swipe/">jQuery.event.swipe</a> plugin, then it’ll work out the box. Easy!</p>				
 			</div>
 		</div>
 
 		<div class="wrap footer">
-
 			<p>&copy;&nbsp;Copyright 2014 - {{site.time | date:"%Y"}}</p>
 		</div>
 
