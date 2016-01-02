@@ -7,6 +7,11 @@
     box-sizing: border-box;
 }
 
+.wrap {
+	margin: 0 auto;
+	width: 960px;
+}
+
 .banner {
 	position: relative;
 	width: 100%;
