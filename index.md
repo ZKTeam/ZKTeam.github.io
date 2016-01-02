@@ -84,28 +84,43 @@ title: ZKTeam 专业 App 定制开发
 			</ul>
 		</div>
 
-		<div id="howto" class="how wrap">
+		<div class="cooperation wrap">
 			<h2>合作流程</h2>
 			<ol>
 				<li>
 					<div>
-						<h3>引入jQuery 和 Unslider </h3>
-						<p>To use Unslider, you’ll need to make sure both the Unslider and jQuery scripts are included. If you’ve already got jQuery (you can test by opening your JavaScript console and typing <code>!!window.jQuery</code> — if it says <code>true</code>, you have jQuery), you don’t need to add the first line.</p>
+						<h3>联系我们</h3>
+						<p>初步洽谈项目需求及报价</p>
 					</div>
 				</li>
-
 				<li>
 					<div>
-						<h3>准备HTML代码</h3>
-						<p>Unslider doesn’t need any really awkward markup. In fact, all you need is a <code>div</code> and an unordered list. An example of some Unslider-friendly HTML is on the right.</p>
-						<p>You can add as many slides as you want: the example on the right just has three for the sake of brevity, but Unslider won’t work properly with one slide (but then it’s just a box).</p>
+						<h3>项目评估</h3>
+						<p>细化项目合作方案，预估时间</p>
 					</div>
 				</li>
-
 				<li>
 					<div>
-						<h3>Plug it all together</h3>
-						<p>We’ve been through so much together, and I’m pleased to say the finish line is near. Our journey is almost over, just one more thing left to do. The JavaScript is on the right (make sure to put it in a <code>script</code> tag, and change <code>.banner</code> to whatever your slider’s element is).</p>
+						<h3>签订合同</h3>
+						<p>双方签订ZK TEAM合同，支付30%预付款</p>
+					</div>
+				</li>
+				<li>
+					<div>
+						<h3>项目开发</h3>
+						<p>保证及时有效沟通，定时定向完成制定的方案</p>
+					</div>
+				</li>
+				<li>
+					<div>
+						<h3>项目验收</h3>
+						<p>甲方根据拟定的项目需求方案验收项目，我方提供项目所有代码及原文件，甲方支付余款</p>
+					</div>
+				</li>
+				<li>
+					<div>
+						<h3>售后服务</h3>
+						<p>免费修改小型项目bug及相关问题</p>
 					</div>
 				</li>
 			</ol>
@@ -114,9 +129,9 @@ title: ZKTeam 专业 App 定制开发
 		<div class="contact">
 			<div class="wrap">
 				<h2>联系我们</h2>
-				<p>电话：18610513559、18510509294
+				<p>电话：18610513559（产品）、18510509294（技术）
 				<br />
-				QQ：573065858、1020304029</p>				
+				QQ：573065858（产品）、1020304029（技术）</p>				
 			</div>
 		</div>
 

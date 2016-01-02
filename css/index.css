@@ -161,26 +161,26 @@ h1, h2, h3, h4, b {
 		padding-bottom: 6px;
 	}
 
-.how {
+.cooperation {
 	padding: 60px 0;
 }
-	.how h2 {
+	.cooperation h2 {
 		color: #7c6853;
 	}
-	.how h3 {
+	.cooperation h3 {
 		padding-bottom: 8px;
 
 		color: #7b6b53;
 		font-size: 20px;
 		line-height: 10px;
 	}
-	.how li {
+	.cooperation li {
 		position: relative;
 		width: 100%;
 		margin: 0 0 40px 15px;
 		padding-left: 10px;
 	}
-	.how p {
+	.cooperation p {
 		padding-bottom: 15px;
 	}
 
