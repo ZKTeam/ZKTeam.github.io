@@ -8,15 +8,17 @@ title: ZKTeam 专业 App 定制开发
 	    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	    <title>{{ page.title }}</title>
+		
 		<link rel="fluid-icon" href="/fluidicon.png" />
 	    <link rel="apple-touch-icon" sizes="57x57" href="/images/apple-touch-icon-114.png" />
 	    <link rel="apple-touch-icon" sizes="114x114" href="/images/apple-touch-icon-114.png" />
 	    <link rel="apple-touch-icon" sizes="72x72" href="/images/apple-touch-icon-144.png" />
 	    <link rel="apple-touch-icon" sizes="144x144" href="/images/apple-touch-icon-144.png" />
 	    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+
 	    <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
-	    <link rel="stylesheet" href="/css/main.css" />
 	    <link rel="stylesheet" href="/css/index.css" />
+
 	    <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
 	    <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 	    <script src="//unslider.com/unslider.js"></script>
@@ -30,7 +32,6 @@ title: ZKTeam 专业 App 定制开发
 					dots: true,               //  Display dot navigation
 					fluid: true              //  Support responsive design. May break non-responsive designs
 				});
-				// $("#header").headroom();
 			});
 	    </script>
 	</head>
@@ -39,18 +40,15 @@ title: ZKTeam 专业 App 定制开发
 			<ul>
 				<li style="background-image: url('img/sunset.jpg');">
 					<div class="inner">
-						<h1>The jQuery slider that just slides.</h1>
-						<p>就是这个不到3kb的插件！没有奇特的特效或无用的标签。</p>
-
-						<a class="btn" href="#download">下载</a>
+						<h1>专业技术</h1>
+						<p>APP专业制作团队 ：只要说清你的需求，就给你想要的。</p>
 					</div>
 				</li>
 
 				<li style="background-image: url('img/wood.jpg');">
 					<div class="inner">
-						<h1>Fluid, flexible, fantastically minimal.</h1>
-						<p>Use any HTML in your slides, extend with CSS. You have full control.</p>
-
+						<h1>全方位服务</h1>
+						<p>iOS 与 Android资深创作团队，提供个性化、全方位服务。</p>
 						<a class="btn" href="#download">下载</a>
 					</div>
 				</li>
