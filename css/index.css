@@ -128,14 +128,14 @@ h1, h2, h3, h4, b {
 			cursor: pointer;
 		}
 
-.features {
+.service {
 	overflow: hidden;
 	padding: 50px 0;
 
 	background: #f7f7f6;
 	box-shadow: inset 0 -1px 3px rgba(0,0,0,.03);
 }
-	.features li {
+	.service li {
 		position: relative;
 		padding: 0 25px 0 40px;
 		list-style: none;
@@ -143,7 +143,7 @@ h1, h2, h3, h4, b {
 		width: 25%;
 		float: left;
 	}
-		.features li:before {
+		.service li:before {
 			content: '';
 			position: absolute;
 			left: 0;
@@ -156,7 +156,7 @@ h1, h2, h3, h4, b {
 			background: url('img/icons.png');
 		}
 			
-	.features b {
+	.service b {
 		display: block;
 		padding-bottom: 6px;
 	}

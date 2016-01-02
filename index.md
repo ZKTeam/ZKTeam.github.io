@@ -60,24 +60,24 @@ title: ZKTeam 专业 App 定制开发
 			</ul>
 		</div>
 
-		<div class="features">
+		<div class="service">
 			<ul class="wrap">
-				<li class="browser">
+				<li>
 					<b>App 需求分析</b>
 					<p>从用户角度出发，提供闭环逻辑思维。</p>
 				</li>
 
-				<li class="keyboard">
+				<li>
 					<b>App 界面设计</b>
 					<p>简单直接的UI设计，让界面更有视觉冲击。</p>
 				</li>
 
-				<li class="height">
+				<li>
 					<b>App 软件开发</b>
 					<p>研发、上线、售后服务，适应各尺寸机型。</p>
 				</li>
 
-				<li class="responsive">
+				<li>
 					<b>待定</b>
 					<p>如今哪个网站还不支持响应式布局就已经非常OUT了。</p>
 				</li>
@@ -136,7 +136,7 @@ title: ZKTeam 专业 App 定制开发
 		</div>
 
 		<div class="wrap footer">
-			<p>&copy;&nbsp;Copyright 2014 - {{site.time | date:"%Y"}}</p>
+			<p>&copy;&nbsp;Copyright 2014 - {{site.time | date:"%Y"}} - ZKTeam</p>
 		</div>
 
 </body>
