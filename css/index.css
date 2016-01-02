@@ -213,3 +213,38 @@ h1, h2, h3, h4, b {
 	margin: 0 auto;
 	width: 960px;
 }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px), (max-width: 900px) {
+	.wrap {
+		width: 90%;
+	}
+
+	.banner h1, .banner h2 {
+		font-size: 24px;
+		line-height: 30px;
+	}
+	.banner ul li {
+		height: 240px;
+	}
+	.banner .inner {
+		padding-top: 100px;
+		padding-bottom: 50px;
+	}
+	.banner p {
+		font-size: 15px;
+		width: 80%;
+		margin: 0 auto;
+	}
+	.features li {
+		width: 100%;
+		margin-left: 10px;
+		margin-bottom: 30px;
+	}
+	.how li {
+		width: 90%;
+	}
+	.how pre {
+		position: static;
+		width: 100%;
+	}
+}
