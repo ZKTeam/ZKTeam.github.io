@@ -38,21 +38,21 @@ title: ZKTeam 专业 App 定制开发
 <body>
 		<div class="banner">
 			<ul>
-				<li style="background-image: url('img/sunset.jpg');">
+				<li style="background-image: url('http://www.bootcss.com/p/unslider/img/sunset.jpg');">
 					<div class="inner">
 						<h1>专业技术</h1>
 						<p>APP专业制作团队 ：只要说清你的需求，就给你想要的。</p>
 					</div>
 				</li>
 
-				<li style="background-image: url('img/wood.jpg');">
+				<li style="background-image: url('http://www.bootcss.com/p/unslider/img/wood.jpg');">
 					<div class="inner">
 						<h1>全方位服务</h1>
 						<p>iOS 与 Android资深创作团队，提供个性化、全方位服务。</p>
 					</div>
 				</li>
 
-				<li style="background-image: url('img/subway.jpg');">
+				<li style="background-image: url('http://www.bootcss.com/p/unslider/img/subway.jpg');">
 					<div class="inner">
 						<h1>极致体验</h1>
 						<p>完美用户体验，才是制胜王道。</p>
