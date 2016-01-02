@@ -155,9 +155,7 @@ h1, h2, h3, h4, b {
 
 			background: url('img/icons.png');
 		}
-			.features li.browser:before { background-position: 0 -44px; }
-			.features li.height:before { background-position: 0 -22px; }
-			.features li.responsive:before { background-position: 0 -66px; }
+			
 	.features b {
 		display: block;
 		padding-bottom: 6px;

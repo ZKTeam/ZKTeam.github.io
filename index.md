@@ -64,18 +64,18 @@ title: ZKTeam 专业 App 定制开发
 		<div class="features">
 			<ul class="wrap">
 				<li class="browser">
-					<b>跨浏览器</b>
-					<p>Unslider已经在所有最新的浏览器上测试过了，并且对那些老旧的浏览器也能很出色的降级处理。</p>
+					<b>App 需求分析</b>
+					<p>从用户角度出发，提供闭环逻辑思维。</p>
 				</li>
 
 				<li class="keyboard">
-					<b>支持键盘导航</b>
-					<p>如果需要，可以加入键盘方向键导航。试一试左右方向键吧！</p>
+					<b>App 界面设计</b>
+					<p>简单直接的UI设计，让界面更有视觉冲击。</p>
 				</li>
 
 				<li class="height">
-					<b>自动调整高度</b>
-					<p>并不是每个幻灯片都很规范，Unslider能够自动调整高度。</p>
+					<b>App 软件开发</b>
+					<p>研发、上线、售后服务，适应各尺寸机型。</p>
 				</li>
 
 				<li class="responsive">
