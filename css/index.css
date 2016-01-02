@@ -34,15 +34,6 @@ h1, h2, h3, h4, b {
 		color: #c3522f;
 	}
 
-#logo {
-	position: absolute;
-	left: 80px;
-	top: 40px;
-	z-index: 2;
-
-	margin-left: -17px;
-}
-
 .banner {
 	position: relative;
 	width: 100%;

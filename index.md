@@ -33,8 +33,6 @@ title: ZKTeam 专业 App 定制开发
     </script>
 </head>
 <body>
-		<img id="logo" src="img/logo.png" alt="Unslider logo" width="34" height="27">
-
 		<div class="banner">
 			<ul>
 				<li style="background-image: url('img/sunset.jpg');">
@@ -233,50 +231,4 @@ data.dots();</pre>
 			<p>Unslider由<a href="http://www.bootcss.com/">Bootstrap中文网</a>翻译整理</p>
 		</div>
 
-
-		<script src="http://cdn.bootcss.com/jquery/1.9.1/jquery.min.js"></script>
-
-		<script src="./jquery.event.move.js"></script>
-		<script src="./jquery.event.swipe.js"></script>
-
-		<script src="./unslider.min.js"></script>
-		<script>
-			if(window.chrome) {
-				$('.banner li').css('background-size', '100% 100%');
-			}
-
-			$('.banner').unslider({
-				arrows: true,
-				fluid: true,
-				dots: true
-			});
-
-			//  Find any element starting with a # in the URL
-			//  And listen to any click events it fires
-			$('a[href^="#"]').click(function() {
-				//  Find the target element
-				var target = $($(this).attr('href'));
-
-				//  And get its position
-				var pos = target.offset(); // fallback to scrolling to top || {left: 0, top: 0};
-
-				//  jQuery will return false if there's no element
-				//  and your code will throw errors if it tries to do .offset().left;
-				if(pos) {
-					//  Scroll the page
-					$('html, body').animate({
-						scrollTop: pos.top,
-						scrollLeft: pos.left
-					}, 1000);
-				}
-
-				//  Don't let them visit the url, we'll scroll you there
-				return false;
-			});
-
-			
-		</script>
-
-		<script src="/p/projects.js"></script>
-	</body>
 </body>
