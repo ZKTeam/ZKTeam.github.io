@@ -2,36 +2,38 @@
 layout: default
 title: ZKTeam 专业 App 定制开发
 ---
-<head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{{ page.title }}</title>
-	<link rel="fluid-icon" href="/fluidicon.png" />
-    <link rel="apple-touch-icon" sizes="57x57" href="/images/apple-touch-icon-114.png" />
-    <link rel="apple-touch-icon" sizes="114x114" href="/images/apple-touch-icon-114.png" />
-    <link rel="apple-touch-icon" sizes="72x72" href="/images/apple-touch-icon-144.png" />
-    <link rel="apple-touch-icon" sizes="144x144" href="/images/apple-touch-icon-144.png" />
-    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
-    <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/css/main.css" />
-    <link rel="stylesheet" href="/css/index.css" />
-    <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
-    <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <script src="//unslider.com/unslider.js"></script>
-    <script type="text/javascript">
-    	$(function() {
-		    $('.banner').unslider({
-				speed: 500,               //  The speed to animate each slide (in milliseconds)
-				delay: 3000,              //  The delay between slide animations (in milliseconds)
-				complete: function() {},  //  A function that gets called after every slide animation
-				keys: true,               //  Enable keyboard (left, right) arrow shortcuts
-				dots: true,               //  Display dot navigation
-				fluid: true              //  Support responsive design. May break non-responsive designs
+<!DOCTYPE html>
+<html>
+	<head>
+	    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	    <title>{{ page.title }}</title>
+		<link rel="fluid-icon" href="/fluidicon.png" />
+	    <link rel="apple-touch-icon" sizes="57x57" href="/images/apple-touch-icon-114.png" />
+	    <link rel="apple-touch-icon" sizes="114x114" href="/images/apple-touch-icon-114.png" />
+	    <link rel="apple-touch-icon" sizes="72x72" href="/images/apple-touch-icon-144.png" />
+	    <link rel="apple-touch-icon" sizes="144x144" href="/images/apple-touch-icon-144.png" />
+	    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+	    <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	    <link rel="stylesheet" href="/css/main.css" />
+	    <link rel="stylesheet" href="/css/index.css" />
+	    <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+	    <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	    <script src="//unslider.com/unslider.js"></script>
+	    <script type="text/javascript">
+	    	$(function() {
+			    $('.banner').unslider({
+					speed: 500,               //  The speed to animate each slide (in milliseconds)
+					delay: 3000,              //  The delay between slide animations (in milliseconds)
+					complete: function() {},  //  A function that gets called after every slide animation
+					keys: true,               //  Enable keyboard (left, right) arrow shortcuts
+					dots: true,               //  Display dot navigation
+					fluid: true              //  Support responsive design. May break non-responsive designs
+				});
+				// $("#header").headroom();
 			});
-			// $("#header").headroom();
-		});
-    </script>
-</head>
+	    </script>
+	</head>
 <body>
 		<div class="banner">
 			<ul>
@@ -222,13 +224,10 @@ data.dots();</pre>
 			</div>
 		</div>
 
-		<div id="download" class="wrap footer">
-			<a class="btn" href="https://github.com/idiot/unslider/blob/master/src/unslider.min.js">下载 <span>压缩文件 (2.6k)</span></a>
-			<a class="btn" href="https://github.com/idiot/unslider/blob/master/src/unslider.js">下载 <span>源码 (5.1k)</span></a>
-			<br>
-			<a href="//twitter.com/idiot">@idiot</a> &mdash; <a href="//github.com/idiot/unslider">Github</a>
+		<div class="wrap footer">
 
-			<p>Unslider由<a href="http://www.bootcss.com/">Bootstrap中文网</a>翻译整理</p>
+			<p>&copy;&nbsp;Copyright 2014 - {{site.time | date:"%Y"}}</p>
 		</div>
 
 </body>
+</html>
