@@ -155,9 +155,9 @@ h1, h2, h3, h4, b {
 
 			background: url('images/icons.png');
 		}
-			.service li.browser:before { background-position: 0 -44px; }
-			.service li.height:before { background-position: 0 -22px; }
-			.service li.responsive:before { background-position: 0 -66px; }
+			.service li.service2:before { background-position: 0 -22px; }
+			.service li.service3:before { background-position: 0 -44px; }
+			.service li.service4:before { background-position: 0 -66px; }
 			
 	.service b {
 		display: block;
