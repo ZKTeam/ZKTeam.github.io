@@ -153,7 +153,7 @@ h1, h2, h3, h4, b {
 			width: 24px;
 			height: 22px;
 
-			background: url('images/icons.png');
+			background: url('../images/icons.png');
 		}
 			.service li.service2:before { background-position: 0 -22px; }
 			.service li.service3:before { background-position: 0 -44px; }
@@ -250,7 +250,7 @@ h1, h2, h3, h4, b {
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
 	.features li:before {
-		background: url('images/icons@2x.png');
+		background: url('../images/icons@2x.png');
 		background-size: 100%;
 	}
 }
